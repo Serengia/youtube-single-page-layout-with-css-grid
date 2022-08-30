@@ -78,6 +78,9 @@ body {
 }
 
 @media (max-width: 56.25em) {
+  .main {
+    grid-template-rows: minmax(50vh, auto) minmax(20rem, auto);
+  }
   .active-video {
     grid-column: 1/-1;
   }
